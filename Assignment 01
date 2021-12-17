@@ -1,0 +1,152 @@
+1: Arithmetic Operators
+class Main {
+public static void main(String[] args) {
+// declare variables
+int a = 12, b = 5;
+// addition operator
+System.out.println("a + b = " + (a + b));
+// subtraction operator
+System.out.println("a - b = " + (a - b));
+// multiplication operator
+System.out.println("a * b = " + (a * b));
+// division operator
+System.out.println("a / b = " + (a / b));
+// modulo operator
+System.out.println("a % b = " + (a % b));
+}
+}
+Output
+a + b = 17
+a - b = 7
+a * b = 60
+a / b = 2
+a % b = 2
+
+2: Assignment Operators
+class Main {
+public static void main(String[] args) {
+// create variables
+int a = 4;
+int var;
+// assign value using =
+var = a;
+System.out.println("var using =: " + var);
+// assign value using =+
+var += a;
+System.out.println("var using +=: " + var);
+// assign value using =*
+var *= a;
+System.out.println("var using *=: " + var);
+}
+}
+Output
+var using =: 4
+var using +=: 8
+var using *=: 32
+
+3.
+public class Test {
+public static void main(String args[]) {
+int a = 10;
+int b = 20;
+int c = 0;
+c = a + b;
+System.out.println("c = a + b = " + c );
+c += a ;
+System.out.println("c += a = " + c );
+c -= a ;
+System.out.println("c -= a = " + c );
+c *= a ;
+System.out.println("c *= a = " + c );
+a = 10;
+c = 15;
+c /= a ;
+System.out.println("c /= a = " + c );
+a = 10;
+c = 15;
+c %= a ;
+System.out.println("c %= a = " + c );
+c <<= 2 ;
+System.out.println("c <<= 2 = " + c );
+c >>= 2 ;
+System.out.println("c >>= 2 = " + c );
+c >>= 2 ;
+System.out.println("c >>= 2 = " + c );
+c &= a ;
+System.out.println("c &= a = " + c );
+c ^= a ;
+System.out.println("c ^= a = " + c );
+c |= a ;
+System.out.println("c |= a = " + c );
+}
+}
+This will produce the following result −
+Output
+c = a + b = 30
+c += a = 40
+c -= a = 30
+c *= a = 300
+c /= a = 1
+c %= a = 5
+c <<= 2 = 20
+c >>= 2 = 5
+c >>= 2 = 1
+c &= a = 0
+c ^= a = 10
+c |= a = 10
+
+Variables and Literals
+1.
+/**
+* This program demonstrates
+* how to use variables in a program
+*/
+public class VariableDemo
+{
+public static void main(String[] args)
+{
+// Declare variables to hold data.
+int rollno;
+String name;
+double marks;
+// Assign values to variables.
+rollno = 19;
+name = "David";
+marks = 89.8;
+// Display the message
+System.out.println("Your roll number is " + rollno);
+System.out.println("Your name is " + name);
+System.out.println("Your marks is " + marks);
+}
+}
+o/p
+Your roll number is 19
+Your name is David
+Your marks is 89.8
+
+1.
+/**
+* Impossible Swap function in Java
+* @author www.codejava.net
+*/
+public class Swap {
+public static void swap(int x, int y) {
+int temp = x;
+x = y;
+y = temp;
+System.out.println("x(1) = " + x);
+System.out.println("y(1) = " + y);
+}
+public static void main(String[] args) {
+int x = 10;
+int y = 20;
+swap(x, y);
+System.out.println("x(2) = " + x);
+System.out.println("y(2) = " + y);
+}
+}
+O/P
+x(1) = 20
+y(1) = 10
+x(2) = 10
+y(2) = 20

@@ -1,0 +1,19 @@
+public class Program {
+public static void main(String[] args) {
+Object[] elements = new Object[4];
+elements[0] = "elephant";
+elements[1] = 40;
+elements[2] = new StringBuilder("xyz");
+elements[3] = 4.5;
+for (Object e : elements) {
+System.out.println(e);
+}
+}
+}
+
+
+output  
+elephant 
+40 
+xyz 
+4.5 
